@@ -26,7 +26,7 @@ def language_switcher(translations):
     """Modern header. No government logo and no sign-in control."""
     current = st.session_state.get("language", "en")
     logo_uri = _logo_data_uri()
-    logo_img = f"<img src='{logo_uri}' alt='ThittamArivom logo' style='height:40px;width:auto;border-radius:6px'/>" if logo_uri else ""
+    logo_img = f"<img src='{logo_uri}' alt='ThittamArivom logo' style='height:68px;width:auto;border-radius:6px'/>" if logo_uri else ""
     st.markdown(
         f"""
         <div class='ta-header'>
