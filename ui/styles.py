@@ -88,6 +88,8 @@ def inject_base_styles():
         [data-testid="stToolbar"] { visibility:hidden; height:0; }
         [data-testid="stDecoration"] { display:none; }
         [data-testid="stStatusWidget"] { visibility:hidden; }
+        [data-testid="stSidebar"] { display:none; }
+        [data-testid="stSidebarCollapsedControl"] { display:none; }
         [data-testid="stAppViewContainer"] { background: #fbfefd; }
         [data-testid="stHeader"] { background: transparent; }
         .block-container { max-width: 1180px; padding: 1.2rem 2rem 3rem; }

@@ -1,7 +1,21 @@
+import base64
+import os
+import functools
 import streamlit as st
 from ui.styles import t, priority_badge, display_value, display_category, rerun
 from data.scheme_details import DETAILS
 from ui.tamil_text import ta_text, ta_scheme_name
+
+
+@functools.lru_cache(maxsize=1)
+def _logo_data_uri():
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "logo_icon.png")
+    try:
+        with open(path, "rb") as f:
+            encoded = base64.b64encode(f.read()).decode("ascii")
+        return f"data:image/png;base64,{encoded}"
+    except FileNotFoundError:
+        return ""
 
 
 def _set_language(lang):
@@ -11,12 +25,17 @@ def _set_language(lang):
 def language_switcher(translations):
     """Modern header. No government logo and no sign-in control."""
     current = st.session_state.get("language", "en")
+    logo_uri = _logo_data_uri()
+    logo_img = f"<img src='{logo_uri}' alt='ThittamArivom logo' style='height:40px;width:auto;border-radius:6px'/>" if logo_uri else ""
     st.markdown(
         f"""
         <div class='ta-header'>
-          <div class='ta-brand'>
-            <div class='ta-brand-name'>Thittam<span>Arivom</span> <span class='ta-leaf'>⌁</span></div>
-            <div class='ta-brand-tag'>{t(translations, 'tagline', 'Find the right government schemes for you')}</div>
+          <div class='ta-brand' style='display:flex;align-items:center;gap:12px'>
+            {logo_img}
+            <div>
+              <div class='ta-brand-name'>Thittam<span>Arivom</span></div>
+              <div class='ta-brand-tag'>{t(translations, 'tagline', 'Find the right government schemes for you')}</div>
+            </div>
           </div>
         </div>
         """,

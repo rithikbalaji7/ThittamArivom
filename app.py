@@ -1,20 +1,23 @@
+import os
 import streamlit as st
 
 from database.db_access import load_schemes, load_scheme_rules, load_translations
 from ui.styles import inject_base_styles
 from ui.components import language_switcher
 from ui.styles import rerun
-from pages.home import render_home
-from pages.questionnaire import render_questionnaire
-from pages.results import render_results
-from pages.scheme_details import render_scheme_details
-from pages.community import render_community
-from pages.directory import render_directory
-from pages.demo import render_demo
+from screens.home import render_home
+from screens.questionnaire import render_questionnaire
+from screens.results import render_results
+from screens.scheme_details import render_scheme_details
+from screens.community import render_community
+from screens.directory import render_directory
+from screens.demo import render_demo
+
+_LOGO_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "logo_icon.png")
 
 st.set_page_config(
     page_title="Thittam Arivom | திட்டம் அறிவோம்",
-    page_icon="\U0001F3E1",
+    page_icon=_LOGO_PATH,
     layout="wide",
     initial_sidebar_state="collapsed",
 )
