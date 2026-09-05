@@ -82,6 +82,12 @@ def inject_base_styles():
         """
         <style>
         :root { --green:#0b8f4d; --green-dark:#08753f; --ink:#14243d; --muted:#68758a; --line:#e3e9e5; --soft:#f4faf6; }
+        #MainMenu { visibility:hidden; }
+        footer { visibility:hidden; }
+        header[data-testid="stHeader"] { background:transparent; }
+        [data-testid="stToolbar"] { visibility:hidden; height:0; }
+        [data-testid="stDecoration"] { display:none; }
+        [data-testid="stStatusWidget"] { visibility:hidden; }
         [data-testid="stAppViewContainer"] { background: #fbfefd; }
         [data-testid="stHeader"] { background: transparent; }
         .block-container { max-width: 1180px; padding: 1.2rem 2rem 3rem; }
