@@ -1,0 +1,99 @@
+scheme_id,condition_field,condition_operator,condition_value,condition_type,weight,mandatory,description
+C001,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C001,land_owned,=,Yes,SUPPORTING,30,False,Household owns agricultural land
+C001,bank_account,=,Yes,SUPPORTING,20,False,Household has a bank account (needed for direct transfer)
+C001,ration_card,=,Yes,SUPPORTING,20,False,Household has a ration card on record
+C002,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C002,land_owned,=,Yes,SUPPORTING,40,False,Household owns/cultivates agricultural land
+C002,agricultural_pump,=,Yes,SUPPORTING,10,False,Household has active irrigation/farming inputs
+C003,occupation,in,"Farmer,Agricultural worker,Livestock owner,Fisherman",PRIMARY,60,True,"Household occupation is Farmer, agricultural worker, livestock owner, or fisherman (KCC use-case)"
+C003,land_owned,=,Yes,SUPPORTING,20,False,Household owns agricultural land (agriculture use-case)
+C003,bank_account,=,Yes,SUPPORTING,20,False,Household has a bank account
+C003,occupation,=,Livestock owner,SUPPORTING,20,False,Household keeps livestock (allied-activity use-case)
+C003,occupation,=,Fisherman,SUPPORTING,20,False,Household occupation is fisherman (fisheries use-case)
+C004,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C004,land_owned,=,Yes,SUPPORTING,20,False,Household owns land (small/marginal profile indicator)
+C005,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C005,land_owned,=,Yes,SUPPORTING,30,False,Household owns agricultural land needing irrigation
+C006,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C006,land_owned,=,Yes,SUPPORTING,30,False,Household owns agricultural land
+C007,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C007,land_owned,=,Yes,SUPPORTING,30,False,Household owns agricultural land
+C008,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C008,farming_activity,=,Horticulture,SUPPORTING,40,False,Household grows horticultural crops
+C009,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C009,land_owned,=,Yes,SUPPORTING,30,False,Household owns agricultural land
+C010,occupation,in,"Farmer,Small business owner",PRIMARY,60,True,"Household is a farmer, FPO member, or agri-business"
+C010,land_owned,=,Yes,SUPPORTING,30,False,Household owns agricultural land/infrastructure
+C011,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C011,farming_activity,=,Organic,SUPPORTING,40,False,Household practises organic farming
+C012,occupation,=,Farmer,PRIMARY,60,True,Household is in the agriculture sector
+C013,house_status,in,"Kutcha,No house,Needs housing",PRIMARY,60,True,Household lacks pucca housing
+C013,ration_card,=,Yes,SUPPORTING,20,False,Household has a ration card on record
+C015,household_has_toilet,=,No,PRIMARY,60,True,Household lacks sanitation facility
+C016,water_access,=,No,PRIMARY,60,True,Household lacks piped drinking water access
+C018,occupation,in,"Daily wage worker,Agricultural worker,Unorganised worker",PRIMARY,60,True,Household seeks rural wage employment
+C022,pregnant_or_lactating,=,Yes,PRIMARY,60,True,A household member is pregnant or lactating
+C023,household_has_lpg,=,No,PRIMARY,60,True,Household does not have an LPG connection
+C024,shg_member,=,Yes,PRIMARY,60,True,A household member is an SHG member
+C024,gender,=,Female,SUPPORTING,20,False,Household member is a woman (SHG/rural-women focus)
+C026,health_insurance,=,No,PRIMARY,60,True,Household lacks existing health insurance/coverage
+C026,ration_card,=,Yes,SUPPORTING,20,False,Household has a ration card on record
+C029,chronic_illness,=,Yes,PRIMARY,60,True,Household self-declared a long-term/chronic health condition
+C030,has_children,=,Yes,PRIMARY,60,True,Household has children
+C030,pregnant_or_lactating,=,Yes,SUPPORTING,20,False,A household member is pregnant or lactating
+C032,age_elderly,=,Yes,PRIMARY,60,True,A household member is of eligible elderly age
+C033,widow,=,Yes,PRIMARY,60,True,A household member is a widow
+C034,disability,=,Yes,PRIMARY,60,True,A household member has a self-declared disability
+C035,bank_account,=,Yes,PRIMARY,60,True,Household has a bank account (enrolment channel; source gives no age criteria to verify against)
+C036,occupation,=,Unorganised worker,PRIMARY,60,True,Household member is an unorganised worker
+C037,occupation,=,Unorganised worker,PRIMARY,60,True,Household member is an unorganised worker
+C038,occupation,=,Street vendor,PRIMARY,60,True,Household member is a street vendor
+C039,occupation,=,Artisan,PRIMARY,60,True,Household member is a traditional artisan
+C040,occupation,=,Small business owner,PRIMARY,60,True,Household is starting/running a micro-enterprise
+C041,occupation,in,"Small business owner,Street vendor,Artisan",PRIMARY,60,True,Household runs or is starting a small/micro business
+C042,bank_account,=,No,PRIMARY,60,True,Household does not have a bank account
+C043,bank_account,=,Yes,PRIMARY,60,True,Household has a bank account (enrolment channel; source gives no age criteria to verify against)
+C044,bank_account,=,Yes,PRIMARY,60,True,Household has a bank account (enrolment channel; source gives no age criteria to verify against)
+C058,occupation,=,Small business owner,PRIMARY,24,True,Household is starting/running a business
+C058,gender,=,Female,PRIMARY,36,True,Applicant is a woman entrepreneur (source's non-category-specific path)
+C059,occupation,=,Small business owner,PRIMARY,60,True,Household is starting a new venture/startup
+C060,occupation,=,Livestock owner,PRIMARY,60,True,Household keeps livestock
+C061,occupation,=,Livestock owner,PRIMARY,60,True,Household keeps cattle/livestock
+C068,occupation,=,Fisherman,PRIMARY,60,True,Household occupation is fisherman
+C073,electricity,=,Yes,PRIMARY,60,True,Household has a grid-connected electricity connection
+C073,house_status,!=,No house,SUPPORTING,10,False,Household has a residence suitable for rooftop installation
+C074,occupation,=,Farmer,PRIMARY,60,True,Household occupation is Farmer
+C074,agricultural_pump,=,Yes,SUPPORTING,40,False,Household already has/needs an agricultural pump
+C075,student,=,Yes,PRIMARY,60,True,A household member is a school-going child
+C075,school_type,=,Government,SUPPORTING,40,False,Child attends a government/government-aided school
+TN001,woman_headed,=,Yes,PRIMARY,60,True,Household is headed by a woman
+TN002,student,=,Yes,PRIMARY,30,True,A household member is a student
+TN002,gender,=,Female,PRIMARY,30,True,Student is a girl
+TN002,school_type,=,Government,SUPPORTING,20,False,Attends/attended a government school
+TN002,education_level,=,Entering higher education,SUPPORTING,20,False,Entering higher education
+TN003,student,=,Yes,PRIMARY,30,True,A household member is a student
+TN003,gender,=,Male,PRIMARY,30,True,Student is a boy
+TN003,school_type,=,Government,SUPPORTING,20,False,Attends/attended a government school
+TN003,education_level,=,Entering higher education,SUPPORTING,20,False,Entering higher education
+TN004,student,=,Yes,PRIMARY,60,True,A household member is a school-going child
+TN004,school_type,=,Government,SUPPORTING,30,False,Attends a government school
+TN005,student,=,Yes,PRIMARY,60,True,A household member is a school-going child
+TN006,pregnant_or_lactating,=,Yes,PRIMARY,60,True,A household member is pregnant or a new mother
+TN007,house_status,in,"Kutcha,No house,Needs housing",PRIMARY,60,True,Household lacks pucca housing (rural)
+TN008,occupation,in,"Farmer,Agricultural worker",PRIMARY,60,True,Household occupation is farmer or agricultural labourer
+TN010,widow,=,Yes,PRIMARY,60,True,Household member is a widow
+TN010,income_range,=,Low,SUPPORTING,30,False,Household income is in the lower band (destitution indicator)
+TN011,widow,=,Yes,PRIMARY,60,True,Household member is destitute/deserted (widow/wife status closest available field)
+TN012,gender,=,Female,PRIMARY,20,True,Household member is a woman
+TN012,age_band,=,50+,PRIMARY,20,True,Household member is aged 50 or above
+TN012,marital_status,=,Unmarried,PRIMARY,20,True,Household member is unmarried
+TN012,income_range,=,Low,SUPPORTING,30,False,Household income is in the lower band
+TN024,household_state,=,Tamil Nadu,PRIMARY,60,True,Household is a Tamil Nadu resident family
+TN024,health_insurance,=,No,SUPPORTING,40,False,Household lacks existing health coverage
+TN024,ration_card,=,Yes,SUPPORTING,40,False,Household has a ration card on record
+TN025,occupation,=,Small business owner,PRIMARY,60,True,Household member is a new entrepreneur
+TN027,gender,=,Female,PRIMARY,30,True,Household member is a woman
+TN027,occupation,=,Small business owner,PRIMARY,30,True,Household member runs/is starting a business
+TN028,occupation,=,Artisan,PRIMARY,60,True,Household member is an artisan/craftsperson
+TN029,girl_child_count,in,"1,2",PRIMARY,60,True,Household has one or two girl children

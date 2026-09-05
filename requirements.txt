@@ -1,0 +1,6 @@
+# Stable versions compatible with the Python 3.9 environment used for this project.
+# Streamlit 1.30 supports true selectbox placeholders while remaining compatible with this project.
+streamlit==1.30.0
+altair==4.2.2
+pandas==1.5.3
+numpy==1.23.5

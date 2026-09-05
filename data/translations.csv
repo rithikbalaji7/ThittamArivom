@@ -1,0 +1,91 @@
+key,english,tamil
+app_name,Thittam Arivom,திட்டம் அறிவோம்
+tagline,"Don't search, know!","தேட வேண்டாம், தெரிந்து கொள்ளுங்கள்!"
+home_intro,Find government schemes that may be relevant to your family.,உங்கள் குடும்பத்திற்குப் பொருந்தக்கூடிய அரசுத் திட்டங்களைக் கண்டறியுங்கள்.
+start_button,Know Your Schemes,திட்டங்களை அறிய
+view_all_schemes,View All Schemes,அனைத்துத் திட்டங்களையும் காண
+community_schemes,Village / Community Schemes,கிராமம் / சமூகத் திட்டங்கள்
+about_app,About Thittam Arivom,திட்டம் அறிவோம் பற்றி
+language_toggle,English | Tamil,English | தமிழ்
+results_title,Government Schemes That May Be Relevant to Your Family,உங்கள் குடும்பத்திற்குப் பொருந்தக்கூடிய திட்டங்கள்
+priority_high,HIGH PRIORITY,அதிக முன்னுரிமை
+priority_medium,MEDIUM PRIORITY,நடுத்தர முன்னுரிமை
+priority_low,LOW PRIORITY,குறைந்த முன்னுரிமை
+status_not_matched,Not Currently Matched,தற்போது பொருந்தவில்லை
+relevance_score_label,Relevance Score,பொருத்தப் புள்ளிகள்
+score_disclaimer,This score indicates how closely the information provided matches the scheme's known criteria. It does not confirm official eligibility.,இந்த மதிப்பெண் வழங்கப்பட்ட தகவல் திட்டத்தின் அறியப்பட்ட நிபந்தனைகளுடன் எவ்வளவு பொருந்துகிறது என்பதைக் காட்டுகிறது. இது அதிகாரப்பூர்வ தகுதியை உறுதிப்படுத்தாது.
+why_shown,Why this appears,இது ஏன் காட்டப்படுகிறது
+needs_verification,Needs verification,சரிபார்ப்பு தேவை
+view_details,View Details,விவரங்களைக் காண
+download_report,Download Report,அறிக்கையைப் பதிவிறக்கு
+disclaimer_main,Thittam Arivom is an informational tool developed for community awareness. It is not an official government application. Final eligibility and benefit approval are determined by the relevant government authority.,திட்டம் அறிவோம் என்பது சமூக விழிப்புணர்வுக்காக உருவாக்கப்பட்ட ஒரு தகவல் கருவி. இது அதிகாரப்பூர்வ அரசு பயன்பாடு அல்ல. இறுதி தகுதி மற்றும் பலன் அங்கீகாரம் தொடர்புடைய அரசு அதிகாரத்தால் தீர்மானிக்கப்படும்.
+privacy_notice,Your information is used only to identify potentially relevant government schemes. Thittam Arivom is not an official government application.,உங்கள் தகவல் பொருந்தக்கூடிய அரசுத் திட்டங்களை அடையாளம் காண மட்டுமே பயன்படுத்தப்படுகிறது. திட்டம் அறிவோம் அதிகாரப்பூர்வ அரசு பயன்பாடு அல்ல.
+category_specific_label,Category-specific eligibility,குறிப்பிட்ட பிரிவுக்கான தகுதி
+umbrella_label,Multiple benefits / Directory only,பல பலன்கள் / பட்டியல் மட்டும்
+more_info_required,More information required,மேலும் தகவல் தேவை
+need_more_info,We need a little more information to identify relevant schemes.,பொருந்தக்கூடிய திட்டங்களைக் கண்டறிய கொஞ்சம் கூடுதல் தகவல் தேவை.
+no_confident_match,No schemes could be confidently matched from the information provided.,வழங்கப்பட்ட தகவலின் அடிப்படையில் எந்தத் திட்டமும் உறுதியாகப் பொருந்தவில்லை.
+step_label,Step,படி
+back_button,← Back,← பின்செல்
+next_button,Next →,அடுத்து →
+basic_info_title,Basic Information,அடிப்படைத் தகவல்கள்
+head_age,Age of household head,குடும்பத் தலைவரின் வயது
+gender,Gender,பாலினம்
+marital_status,Marital status,திருமண நிலை
+occupation,Occupation,தொழில்
+annual_income,Annual household income,ஆண்டு குடும்ப வருமானம்
+family_size,Number of people in the household,குடும்ப உறுப்பினர்களின் எண்ணிக்கை
+income_note,Income bands are input ranges; they are not official scheme eligibility limits.,வருமான வரம்புகள் தகவல் உள்ளீட்டிற்கான பிரிவுகள் மட்டுமே; இவை அதிகாரப்பூர்வ திட்டத் தகுதி வரம்புகள் அல்ல.
+household_info_title,Household Information,குடும்பத் தகவல்கள்
+yes_default_note,Yes is selected by default. Change an answer when it does not apply.,இயல்பாக ஆம் தேர்ந்தெடுக்கப்பட்டுள்ளது. பொருந்தவில்லை என்றால் மாற்றவும்.
+house_status,House status,வீட்டின் நிலை
+house_type,House type,வீட்டு வகை
+electricity,Electricity connection?,மின்சார இணைப்பு உள்ளதா?
+lpg,LPG connection?,LPG இணைப்பு உள்ளதா?
+toilet,Toilet at home?,வீட்டில் கழிப்பறை உள்ளதா?
+water,Piped drinking water access?,குழாய் குடிநீர் வசதி உள்ளதா?
+ration_card,Ration card?,ரேஷன் அட்டை உள்ளதா?
+bank_account,Bank account?,வங்கி கணக்கு உள்ளதா?
+health_insurance,Existing health insurance?,சுகாதார காப்பீடு உள்ளதா?
+rooftop_solar,Rooftop solar already installed?,கூரை சூரிய மின்சாரம் ஏற்கனவே உள்ளதா?
+woman_headed,Is this household headed by a woman?,இந்த குடும்பத்தின் தலைவராக பெண் உள்ளாரா?
+agriculture_title,Agriculture Information,விவசாயத் தகவல்கள்
+land_owned,Do you own agricultural land?,விவசாய நிலம் உங்களிடம் உள்ளதா?
+land_size,Approximate agricultural landholding,விவசாய நிலத்தின் அளவு
+agricultural_pump,Do you have an agricultural pumpset?,விவசாய பம்ப்செட் உள்ளதா?
+pump_type,Pumpset type,பம்ப்செட் வகை
+farming_activity,Farming activity,விவசாய செயல்பாடு
+review_title,Review & Get Recommendations,மதிப்பாய்வு செய்து திட்டங்களைப் பெறுங்கள்
+head_only_note,This version collects household information and household-head information. It does not collect a separate family-member profile.,இந்த பதிப்பு குடும்பம் மற்றும் குடும்பத் தலைவரின் தகவல்களை மட்டும் சேகரிக்கிறது. தனி குடும்ப உறுப்பினர் விவரப் பக்கம் இல்லை.
+get_recommendations,Get My Recommendations,எனக்கு பொருத்தமான திட்டங்களை காண்க
+head_only_results_note,Recommendations are based on the household and household-head information collected. Schemes that require detailed information about other individual family members may need additional verification.,பரிந்துரைகள் குடும்பம் மற்றும் குடும்பத் தலைவரிடமிருந்து பெறப்பட்ட தகவல்களை அடிப்படையாகக் கொண்டவை. பிற குடும்ப உறுப்பினர்களின் தனிப்பட்ட தகவல்கள் தேவைப்படும் திட்டங்களுக்கு கூடுதல் சரிபார்ப்பு தேவைப்படலாம்.
+complete_profile,Complete Profile,சுயவிவரத்தை பூர்த்தி செய்யவும்
+not_matched_note,These schemes have a mandatory rule that did not match the information provided.,இந்தத் திட்டங்களின் கட்டாய நிபந்தனைகள் வழங்கப்பட்ட தகவல்களுடன் பொருந்தவில்லை.
+edit_profile,Edit Profile,தகவலை மாற்றவும்
+home_button,Home,முகப்பு
+verification_status,Verification status,சரிபார்ப்பு நிலை
+viability_status,Recommendation status,பரிந்துரை நிலை
+official_source_recorded,An official source URL is recorded in the project data. Verify the current scheme rules before applying.,அதிகாரப்பூர்வ ஆதார URL திட்டத் தரவில் பதிவு செய்யப்பட்டுள்ளது. விண்ணப்பிப்பதற்கு முன் தற்போதைய விதிகளை சரிபார்க்கவும்.
+official_source_missing,An official source URL is not provided in the project source data. Verify the current scheme details with the relevant government department.,திட்டத்தின் ஆதாரத் தரவில் அதிகாரப்பூர்வ URL வழங்கப்படவில்லை. தொடர்புடைய அரசு துறையிடம் தற்போதைய திட்ட விவரங்களை சரிபார்க்கவும்.
+source_note,Source note,ஆதாரக் குறிப்பு
+relevant_to,Relevant to,யாருக்குப் பொருந்துகிறது
+no_scheme_selected,No scheme selected.,திட்டம் தேர்ந்தெடுக்கப்படவில்லை.
+scheme_not_found,Scheme not found.,திட்டம் கிடைக்கவில்லை.
+community_note,Community-level schemes are shown separately and are not part of personal household recommendations.,சமூக அளவிலான திட்டங்கள் தனியாகக் காட்டப்படுகின்றன; அவை தனிப்பட்ட குடும்பப் பரிந்துரைகளில் சேர்க்கப்படாது.
+no_community,No community schemes found.,சமூகத் திட்டங்கள் எதுவும் கிடைக்கவில்லை.
+directory_note,"This directory lists the scheme records in the project dataset, including entries not used in default recommendations.",இந்தப் பட்டியல் திட்டத் தரவுத்தொகுப்பில் உள்ள அனைத்து பதிவுகளையும் காட்டுகிறது; இயல்புநிலைப் பரிந்துரைகளில் பயன்படுத்தப்படாத பதிவுகளும் இதில் அடங்கும்.
+filter_category,Filter by category,வகை அடிப்படையில் வடிகட்டவும்
+scheme_count,scheme(s),திட்டங்கள்
+demo_title,Demo Mode,டெமோ முறை
+demo_note,Load a sample household to test the recommendation engine.,பரிந்துரை இயந்திரத்தைச் சோதிக்க ஒரு மாதிரி குடும்பத்தைத் தேர்ந்தெடுக்கவும்.
+demo_choice,Choose a demo household,மாதிரி குடும்பத்தைத் தேர்ந்தெடுக்கவும்
+load_demo,Load this household,இந்தக் குடும்பத்தை ஏற்றவும்
+demo_mode,Demo Mode,டெமோ முறை
+scheme_about,About the scheme,திட்டத்தைப் பற்றி
+scheme_benefit,What is the benefit?,என்ன பயன்?
+scheme_eligibility,Who can get it?,யார் பெறலாம்?
+scheme_documents,Documents required,தேவையான ஆவணங்கள்
+scheme_apply,How to apply,எப்படி விண்ணப்பிப்பது?
+scheme_official,Official website,அதிகாரப்பூர்வ இணையதளம்
+open_official,Open official website,அதிகாரப்பூர்வ தளத்தைத் திறக்க
+data_not_available,Detailed information is not available in the current project dataset.,இந்தத் திட்டத்திற்கான விரிவான தகவல் தற்போதைய திட்டத் தரவுத்தளத்தில் இன்னும் சேர்க்கப்படவில்லை.
