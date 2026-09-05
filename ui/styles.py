@@ -131,7 +131,14 @@ def inject_base_styles():
         .ta-icon-cards .stRadio [role="radiogroup"] > label:has(input:checked) { border-color:var(--green); background:#eaf8ef; color:var(--green-dark); }
 
         /* Streamlit controls */
-        label, .stMarkdown p { color:var(--ink); }
+        /* Force readable dark text everywhere, regardless of visitor's device dark-mode setting. */
+        label, .stMarkdown p, .stMarkdown, .stMarkdown li,
+        [data-testid="stWidgetLabel"] p, [data-testid="stWidgetLabel"] label,
+        [data-testid="stMarkdownContainer"] p, [data-testid="stMarkdownContainer"] li,
+        h1, h2, h3, h4, h5, h6,
+        .stRadio label, .stCheckbox label, .stSelectbox label, .stTextInput label,
+        .stNumberInput label, .stDateInput label, .stTextArea label,
+        [data-testid="stCaptionContainer"] { color:var(--ink) !important; }
         .stTextInput input { border-radius:12px !important; border:1px solid #d9e1dc !important; min-height:46px !important; }
         .stSelectbox > div > div { border-radius:12px !important; border-color:#d9e1dc !important; min-height:46px; }
         .stRadio > div { gap:10px; }

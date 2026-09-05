@@ -65,7 +65,6 @@ def render_questionnaire(translations):
         step_labels = ["Your details", "Household & farm", "Review"]
     progress_indicator(step, total_steps, translations, step_labels=step_labels)
     st.write("")
-    st.markdown("<div class='ta-card'>", unsafe_allow_html=True)
 
     if step == 1:
         _step1_basic_info(translations)
@@ -73,8 +72,6 @@ def render_questionnaire(translations):
         _step2_household(translations)
     elif step == 3:
         _step3_review(translations)
-
-    st.markdown("</div>", unsafe_allow_html=True)
 
 
 def _nav_buttons(back_enabled=True, next_label=None, translations=None, on_next=None):
